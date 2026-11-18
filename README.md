@@ -36,7 +36,7 @@
 
 ## 用法
 
-作为一个 Agent Skill，放到 `~/.workbuddy/skills/aligned-roster-docx/` 即可被自动发现调用。独立脚本也可直接用：
+本 skill 遵循 Agent Skills 开放标准，`SKILL.md` 格式通用，主流 AI 工具（WorkBuddy、Claude Code、Codex、Cursor 等）都能用，文件内容无需改动，只需放到所用工具的 skill 目录。安装与验证步骤见 [INSTALL.md](INSTALL.md)。独立脚本也可直接用：
 
 ```bash
 # 姓名格式化（可作为模块 import）
